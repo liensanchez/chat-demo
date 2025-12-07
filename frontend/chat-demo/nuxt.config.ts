@@ -14,5 +14,12 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Customer Service Chat Demo' }
       ]
     }
+  },
+
+  vite: {
+    server: {
+      host: true,
+      allowedHosts: ['chat.liensdev.com']
+    }
   }
 })

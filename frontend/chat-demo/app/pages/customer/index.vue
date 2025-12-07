@@ -20,7 +20,7 @@
           </div>
           <div>
             <h1 class="font-semibold text-white">Customer Support</h1>
-            <p class="text-xs text-slate-400">We typically reply within minutes</p>
+            <p class="text-xs text-slate-400">Un asistente se contactara contigo</p>
           </div>
         </div>
         <div class="flex items-center gap-2">
@@ -40,8 +40,8 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
             </svg>
           </div>
-          <h2 class="text-xl font-semibold text-white mb-2">Start a conversation</h2>
-          <p class="text-slate-400 text-sm mb-6">Enter your name to begin chatting with our support team</p>
+          <h2 class="text-xl font-semibold text-white mb-2">Empezar una conversacion</h2>
+          <p class="text-slate-400 text-sm mb-6">Ingresa tu nombre para comunicarte con el equipo de soporte</p>
           
           <form @submit.prevent="startChat" class="space-y-4">
             <input
@@ -68,8 +68,8 @@
           <!-- Welcome message -->
           <div class="flex justify-start">
             <div class="max-w-md px-4 py-3 rounded-2xl bg-slate-700 text-white rounded-bl-sm">
-              <p>Hello {{ customerName }}! 👋 How can we help you today?</p>
-              <p class="text-xs mt-1 text-slate-400">Support Team</p>
+              <p>Hola {{ customerName }}! 👋 Como te podemos ayudar?</p>
+              <p class="text-xs mt-1 text-slate-400">Equipo de Soporte</p>
             </div>
           </div>
 
